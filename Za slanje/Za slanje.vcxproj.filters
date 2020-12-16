@@ -15,15 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Graph.cpp">
+    <ClCompile Include="dzp1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="zad1.cpp">
+    <ClCompile Include="dzp2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{138DE2FF-3E9C-4B98-B913-4240DACD2D0C}</ProjectGuid>
-    <RootNamespace>ASPdomaci</RootNamespace>
+    <ProjectGuid>{C1AEBB19-1C3B-40E2-AFE1-A2B5932BBA4C}</ProjectGuid>
+    <RootNamespace>zadatak2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -118,11 +118,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.h" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="zad2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graph.cpp" />
-    <ClCompile Include="zad1.cpp" />
+    <ClInclude Include="Graph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
